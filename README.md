@@ -1,4 +1,4 @@
-# effectiveJava
+# EffectiveJava
 
 
-# This repository contains the example of the book effective java.
+#####  This repository contains the example of the book effective java.
