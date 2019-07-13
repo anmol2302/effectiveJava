@@ -4,6 +4,8 @@ public class User {
 
     private final String name;
     private final String age;
+    private final String gender;
+    private final String address;
 
     public String getName() {
         return name;
@@ -21,10 +23,7 @@ public class User {
         return address;
     }
 
-    private final String gender;
-    private final String address;
-
-    public User(UserBuilder userBuilder) {
+    private User(UserBuilder userBuilder) {
 
         name = userBuilder.name;
         age = userBuilder.age;
