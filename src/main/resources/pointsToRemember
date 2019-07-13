@@ -1,0 +1,8 @@
+ch -2 -:
+  -  A volatile modifier is used that any thread excess the variable will have the most recent changes, since microprocessor does not cache the variable.
+      this modifier is used when variable is shared between multiple threads...
+  -  it is important to have a readResolve() method in singleton classes to avoid multiple instances on deserialization.
+  -  it is good to use getInstance method with private constructor to symbolize meaning of instantiating the constructor,
+  -  but the shortcoming of using getInstance method is that it cant be subclassed.
+  -  Use builder pattern when you have too many variable to initialize(Telescopic pattern or javBeans pattern(setters and getters)) , it is easy to read.
+  -  No need to use singleton class who has dependency on other underlying resources..
