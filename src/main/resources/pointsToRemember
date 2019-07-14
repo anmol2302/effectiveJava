@@ -6,3 +6,5 @@ ch -2 -:
   -  but the shortcoming of using getInstance method is that it cant be subclassed.
   -  Use builder pattern when you have too many variable to initialize(Telescopic pattern or javBeans pattern(setters and getters)) , it is easy to read.
   -  No need to use singleton class who has dependency on other underlying resources..
+  -  garbage collector is dominant to weakHashMap so any key in map that is not refrenced is removed by the garbage collector but opposite in HashMap.
+  -  always use try with resources in prefer to try with finally since they provide more readability and provide more clear exceptions they extends to Autoclosable class.
